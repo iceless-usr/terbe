@@ -1,4 +1,7 @@
 This is a most detailed help for `boot.py` and `terbe.py`
+
+`terbe.py`
+
 ```
 
       [] optional <> required
@@ -89,4 +92,35 @@ This is a most detailed help for `boot.py` and `terbe.py`
     pyrun <command>                 | Run a python command
         Python exec().
         
+```
+
+`boot.py`
+
+```
+    IN Terminal
+    boot.py            | Shell mode
+    boot.py <commmand> | Direct command
+
+    IN Shell
+    exit               | Exit shell
+    cd <dir>           | Change working dir
+    efihelp            | View help of boot loader
+    tsh <filename(s)>  | Run TSH
+    bod <command>      | Terbe bash with old dir
+
+    environmental variables DOs
+    read <name> <tips> | Read user input as name with tips
+        Like "set /p" on Windows or "read" on Linux
+    set <name> <value> | Set a value
+        Like "set" on Windows or "=" on Linux
+    writevals <file>   | Write values to file
+        Values is save on RAM (Random Access Memory), it will be cleared when closed.
+        So, you can use this to save values to a file(.ini).
+    readvals <file>    | Read values from file
+        You can use this to read values from a file(.ini).
+
+    Notes
+    1. "echo $e" Will replace "$e" to value e
+    2. View terbe help with command "help"
+    3. If
 ```

@@ -80,10 +80,13 @@ This is a most detailed help for `boot.py` and `terbe.py`
         
     
     systembash <command>            | Enforce system command
-        
+        What is command, what will run.
+        If you run "edeeede" and it is not a correct command, terbe will run "systembash edeeede".
     
     bash <command>                  | Run a Terbe CORE command
-    
+        If you run "bash help", it will run "help".
+        
     pyrun <command>                 | Run a python command
-    
+        Python exec().
+        
 ```

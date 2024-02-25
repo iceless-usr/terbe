@@ -21,8 +21,13 @@ Now, you can type `efihelp` to get help of `boot.py`, or `help` to get help of `
 
 `boot.py` DOs
 
-import terbe > terbe.bash( YOUR INPUT ) > terbe
+- import terbe > terbe.bash( YOUR INPUT ) > terbe
+- `root@host / # `
+- Change working dir
+- Read, Write, Set values
+- Run TSH file (Just like a batch file)
+- Exit terminal
 
 `terbe.py` DOs
 
-import what it needed > recvice boot.py command > do script
+- import what it needed > recvice boot.py command > do script

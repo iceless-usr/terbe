@@ -18,3 +18,11 @@ And run `python boot.py` for shell mode or `python boot.py <cmd>` for direct com
 Shell mode like `root@host / # `, ya it is just a terminal.
 
 Now, you can type `efihelp` to get help of `boot.py`, or `help` to get help of `terbe.py`.
+
+`boot.py` DOs
+
+import terbe > terbe.bash( YOUR INPUT ) > terbe
+
+`terbe.py` DOs
+
+import what it needed > recvice boot.py command > do script
